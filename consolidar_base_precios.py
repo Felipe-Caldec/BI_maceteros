@@ -1,5 +1,6 @@
 import pandas as pd
 from datetime import datetime
+<<<<<<< HEAD
 from dotenv import load_dotenv
 import os
 
@@ -25,6 +26,19 @@ df_ikea = pd.read_csv(path_ikea, sep=",", encoding="utf-8")
 df_plantme = pd.read_csv(path_plantme, sep=",", encoding="utf-8")
 df_amazon = pd.read_csv(path_amazon, sep=",", encoding="utf-8")
 df_paris = pd.read_csv(path_paris, sep=",", encoding="utf-8")
+=======
+
+df_sodimac = pd.read_csv(r"C:\Users\olgac\OneDrive\Desktop\scrapping\lista_productos_sodimac_04-03-2026_test.csv", sep=",",encoding="utf-8")
+df_easy = pd.read_csv(r"C:\Users\olgac\OneDrive\Desktop\scrapping\lista_productos_easy_04-03-2026_test.csv", sep=",", encoding="utf-8")
+df_mercado_libre = pd.read_csv(r"C:\Users\olgac\OneDrive\Desktop\scrapping\lista_productos_ml_04-03-2026_test.csv", sep=",", encoding="utf-8")
+df_construmart = pd.read_csv(r"C:\Users\olgac\OneDrive\Desktop\scrapping\lista_productos_construmart_04-03-2026_test.csv", sep=",", encoding="utf-8")
+df_casaideas = pd.read_csv(r"C:\Users\olgac\OneDrive\Desktop\scrapping\lista_productos_casaideas_04-03-2026_test.csv", sep=",", encoding="utf-8")
+df_ikea = pd.read_csv(r"C:\Users\olgac\OneDrive\Desktop\scrapping\lista_productos_ikea_04-03-2026_test.csv", sep=",", encoding="utf-8")
+#df_kenaz = pd.read_csv(r"C:\Users\olgac\OneDrive\Desktop\scrapping\csv\lista_productos_kenaz_06-02-2026_clean.csv", sep=",", encoding="utf-8")
+df_plantme = pd.read_csv(r"C:\Users\olgac\OneDrive\Desktop\scrapping\lista_productos_plantme_04-03-2026_test.csv", sep=",", encoding="utf-8")
+df_amazon = pd.read_csv(r"C:\Users\olgac\OneDrive\Desktop\scrapping\lista_productos_amazon_04-03-2026_test.csv", sep=",", encoding="utf-8")
+df_paris = pd.read_csv(r"C:\Users\olgac\OneDrive\Desktop\scrapping\lista_productos_paris_04-03-2026_test.csv", sep=",", encoding="utf-8")
+>>>>>>> 69ec57f8e3ed5eed9dde2bf24b94a8c116ef9932
 
 #consolidado = pd.read_excel()
 
